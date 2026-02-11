@@ -572,13 +572,19 @@ body {
     .header-nav {
         flex-direction: column;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 5px;
         padding: 10px;
         a {
+            font-size: 10px;
             border: 2px solid rgba(255, 255, 255, 0.358);
             padding: 5px 10px;
             border-radius: 10px;
+        }
+        a:hover {
+            border: 2px solid white;
+            padding: 5px 10px;
+            transform: scale(1.1);
         }
     }
 
@@ -641,14 +647,13 @@ body {
 
 @media (max-width: 340px) {
     .header-nav {
-        grid-template-columns: repeat(4, 1fr);
         gap: 5px;
         padding: 10px;
         a {
+            font-size: 9px;
             border: 2px solid rgba(255, 255, 255, 0.358);
             padding: 5px 10px;
             border-radius: 10px;
-            font-size: 6px;
         }
     }
 }
