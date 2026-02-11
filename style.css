@@ -549,9 +549,12 @@ body {
 @media (max-width: 503px) {
     .header-logo {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
         img {
             align-items: start;
-            width: 100px;
+            width: 200px;
         }
         .header-top {
         input {
