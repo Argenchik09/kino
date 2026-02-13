@@ -288,6 +288,7 @@ body {
 .time:hover {
     color: white;
     background: rgba(1, 52, 117, 1);
+    transform: scale(1.1);
 }
 
 .time {
@@ -378,6 +379,16 @@ body {
             font-size: 15px;
         }
     }
+    #info {
+        .info {
+        h1 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    }
 }
 
 @media (max-width: 1081px) {
@@ -450,6 +461,16 @@ body {
             display: none;
         }
     }
+    #info {
+        .info {
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+}
 }
 
 @media (max-width: 855px) {
@@ -548,6 +569,16 @@ body {
             font-size: 12px;
         }
     }
+    #info {
+        .info {
+        h1 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+    }
 }
 
 @media (max-width: 685px) {
@@ -617,6 +648,16 @@ body {
         a {
             font-size: 10px;
         }
+    }
+    #info {
+        .info {
+        h1 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 8px;
+        }
+    }
     }
 }
 
@@ -732,4 +773,42 @@ body {
     }
 }
 
-@media (max)
+#info {
+    padding: 50px 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1 {
+        font-weight: 500;
+        font-size: 30px;
+        color: white;
+    }
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.77);
+    }
+    hr {
+        color: blue;
+    }
+}
+
+.line {
+    width: 90%;
+    height: 2px;
+    background: rgb(2, 2, 102);
+}
+
+#spictakl {
+    padding: 50px 0;
+}
+
+.spectakle-block {
+    display: flex;
+    align-items: center ;
+    justify-content: start;
+    gap: 30px;
+}
