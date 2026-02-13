@@ -325,6 +325,7 @@ body {
     
         
     }
+
     .header-nav {
         gap: 35px;
         a {
@@ -348,6 +349,39 @@ body {
             font-size: 15px;
         }
     }
+    .djevy {
+        img {
+            width: 300px;
+        }
+    }
+    .djevy-text {
+        h1 {
+            font-size: 25px;
+        }
+        ion-icon {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 15px;
+            span {
+                font-size: 15px;
+            }
+        }
+        h4 {
+            font-size: 12px;
+        }
+    }
+    .time {
+        gap: 10px;
+        padding: 10px 15px;
+        h2 {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 1081px) {
+    
 }
 
 @media (max-width: 1001px) {
@@ -397,6 +431,23 @@ body {
     .hero-title {
         h1 {
             font-size: 20px;
+        }
+    }
+    .time-block {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        ion-icon {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .time-block {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        ion-icon {
+            display: none;
         }
     }
 }
@@ -473,6 +524,29 @@ body {
             font-size: 13px;
         }
         
+    }
+}
+
+@media (max-width: 745px) {
+    .djevy {
+        flex-direction: column;
+        img {
+            width: 300px;
+        }
+    }
+    .time-block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        ion-icon {
+            display: none;
+        }
+    }
+    .time {
+        gap: 8px;
+        padding: 8px 13px;
+        h2 {
+            font-size: 12px;
+        }
     }
 }
 
@@ -657,3 +731,5 @@ body {
         }
     }
 }
+
+@media (max)
