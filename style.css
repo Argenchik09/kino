@@ -204,6 +204,9 @@ body {
         margin-bottom: 20px;
     }
     a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         font-weight: 400;
         font-size: 19px;
         color: rgba(255, 255, 255, 0.808);
